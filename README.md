@@ -29,8 +29,8 @@
 - LinearRegression
 - RandomForestRegressor
 - GradientBoostingRegressor
-- Regression model were used to identify among 'member_days', 'income', 'age' and 'gender' which one contributes to customers' decisions the most.
-- The result: 'member_days' has hightest impact, followed with 'income', 'age' and 'gender'.
+- Regression model were used to identify among 'member_days', 'income', 'age' and 'gender' which has the greatest impact on the offer completion rate.
+- The result: 'member_days' has hightest impact, followed by 'income'.
 - <img width="1084" height="449" alt="image" src="https://github.com/user-attachments/assets/98397c5a-390a-43bf-b704-69350a6d01d8" />
 
 ## Classification Model
