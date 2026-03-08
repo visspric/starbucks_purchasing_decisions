@@ -23,6 +23,8 @@
 - Distribution of Income for Customers Who Completed Offers: customers who have income between 50000 - 70000 are more likely to complete the offer
 - <img width="859" height="545" alt="image" src="https://github.com/user-attachments/assets/2f2d8057-0f58-4d55-9b8f-be98172dc163" />
 - Gender: male customers complete more offers
+- <img width="704" height="468" alt="image" src="https://github.com/user-attachments/assets/8c24711d-0a1c-42fc-8c41-db3cc3c4e8e8" />
+
 
 
 
