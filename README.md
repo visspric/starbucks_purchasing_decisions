@@ -2,9 +2,15 @@
 
 ## Preprocessing
 
-- profile data: customer demographics
-- portfolio data: offer characteristics
-- transcript: event logs
+- profile_data: customer demographics
+- portfolio_data: offer characteristics
+- transcript_data: event logs
+
+* The 3 datasets are merged by 'id' column in profile_data and 'person' column in transcript_data, then merged to portfolio data by 'id'(offer id) column.
+* 
+
+
+
 - Best Channel: web & email
 - <img width="508" height="139" alt="Screenshot 2026-03-08 at 15 22 08" src="https://github.com/user-attachments/assets/3c60553e-4b40-458b-9559-10d2a256b612" />
 - Best Offer: discount
