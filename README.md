@@ -41,7 +41,11 @@
 - <img width="1122" height="379" alt="Screenshot 2026-03-08 at 20 07 38" src="https://github.com/user-attachments/assets/b72541e2-0d24-4512-9453-22696fa3872b" />
 
 # Package used for Preprocessing:
-
+- json
+- Path
+- pandas
+- seaborn
+- plt
 
 # Package used for Modelling:
 - pandas
