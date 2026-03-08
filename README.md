@@ -1,7 +1,6 @@
 # Project Report
 
 ## Preprocessing
-
 - profile_data: customer demographics
 - portfolio_data: offer characteristics
 - transcript_data: event logs
@@ -25,6 +24,47 @@
 - Gender: male customers complete more offers
 - <img width="704" height="468" alt="image" src="https://github.com/user-attachments/assets/8c24711d-0a1c-42fc-8c41-db3cc3c4e8e8" />
 
+## Regression Model
+- LinearRegression
+- RandomForestRegressor
+- GradientBoostingRegressor
+- Regression model were used to identify among 'member_days', 'income', 'age' and 'gender' which one contributes to customers' decisions the most.
+- The result: 'member_days' has hightest impact, followed with 'income', 'age' and 'gender'.
+- <img width="1084" height="449" alt="image" src="https://github.com/user-attachments/assets/98397c5a-390a-43bf-b704-69350a6d01d8" />
+
+## Classification Model
+- LogisticRegression
+- RandomForestClassifier
+- GradientBoostingClassifer
+- Classification model were used to identify the likelihood of a specific customer compelete the offer.
+- Part of the restult:
+- <img width="1122" height="379" alt="Screenshot 2026-03-08 at 20 07 38" src="https://github.com/user-attachments/assets/b72541e2-0d24-4512-9453-22696fa3872b" />
+
+# Package used for Preprocessing:
+
+
+# Package used for Modelling:
+- pandas
+- Path
+- LabelEncoder
+- train_test_split
+- StandardScaler
+- LogisticRegression
+- RandomForestClassifier
+- GradientBoostingClassifier
+- roc_auc_score
+- accuracy_score
+- precision_score
+- recall_score
+- f1_score
+- LinearRegression
+- GradientBoostingRegressor
+- plt
+- sns
+- mean
+- numpy
+- mean_squared_error
+- r2_score
 
 
 
