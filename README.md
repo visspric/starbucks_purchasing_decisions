@@ -11,7 +11,7 @@
 - The 3 datasets are merged by 'id' column in profile_data and 'person' column in transcript_data, then merged to portfolio data by 'id'(offer id) column.
 - Then following datasets were created for checking the popularity of the offers, the effectiveness of different channels, and the target customers. Which are best_offer, best_channel, and target_customer respectively. targte_customer DataFrame will be used to predict which customers should be targted for the offers.
 - 
-- After dropping the null values in the merged DataFrame, there are 14825 customers. 15,100 BOGO offer were completed, 16,970 offers were completed, and 0 informational offers were completed.
+- After dropping the null values in the merged DataFrame, there are 14825 customers. 15,100 BOGO offer were completed, 16,970 discount offers were completed, and 0 informational offers were completed.
 
 ## Exploratory Visualization
 - Best Channel: web & email
