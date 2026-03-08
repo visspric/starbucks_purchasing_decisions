@@ -5,12 +5,13 @@
 - profile_data: customer demographics
 - portfolio_data: offer characteristics
 - transcript_data: event logs
+- unwrapped the values of 'channels' column in portfolio_datawhich are originally lists
+- unwrapped 'value' column in the transcript_data
+- encoded categorical column 'event'
+- The 3 datasets are merged by 'id' column in profile_data and 'person' column in transcript_data, then merged to portfolio data by 'id'(offer id) column.
+- After dropping the null values in the merged DataFrame, there are 14825 customers. 15,100 BOGO offer were completed, 16,970 offers were completed, and 0 informational offers were completed.
 
-* The 3 datasets are merged by 'id' column in profile_data and 'person' column in transcript_data, then merged to portfolio data by 'id'(offer id) column.
-* 
-
-
-
+## Exploratory Visualization
 - Best Channel: web & email
 - <img width="508" height="139" alt="Screenshot 2026-03-08 at 15 22 08" src="https://github.com/user-attachments/assets/3c60553e-4b40-458b-9559-10d2a256b612" />
 - Best Offer: discount
