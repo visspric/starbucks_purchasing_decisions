@@ -41,6 +41,11 @@
 - Part of the restult:
 - <img width="1122" height="379" alt="Screenshot 2026-03-08 at 20 07 38" src="https://github.com/user-attachments/assets/b72541e2-0d24-4512-9453-22696fa3872b" />
 
+## Refinement
+- Models were tuned to find the best parameter values.
+- <img width="1060" height="824" alt="image" src="https://github.com/user-attachments/assets/9ce52430-51d4-4972-bd69-3870f0207266" />
+
+
 # Package used for Preprocessing:
 - json
 - Path
